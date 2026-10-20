@@ -1667,7 +1667,7 @@ loadRememberedLogin();
     <div class="rg-update-actions"><button id="rgUpdateLater" type="button">Cancel</button><button id="rgUpdateOkay" type="button">UPDATE</button></div>
   </div>
 </div>
-<button id="rgTestUpdateButton" type="button">TEST: Preview Update Notice</button>
+<button id="rgTestUpdateButton" type="button">©RG GAMER BOY FF 2026</button>
 <script id="rgScheduledUpdateScript">
 (function(){
   const VERSION_KEY='rg_wifi_12hour_version_v3';
@@ -1686,7 +1686,7 @@ loadRememberedLogin();
     'New smoother button feedback effect added.',
     'New website feature unlocked: a Quick Tools panel is now available.'
   ];
-  function getVersion(){return localStorage.getItem(VERSION_KEY)||'1.0'}
+  function getVersion(){return localStorage.getItem(VERSION_KEY)||'1.01'}
   function setVersion(v){localStorage.setItem(VERSION_KEY,v);const el=$('rgVersionText');if(el)el.textContent=v}
   function nextVersion(){const nums=getVersion().split('.').map(n=>parseInt(n,10)||0);while(nums.length<3)nums.push(0);nums[2]++;return nums[0]+'.'+nums[1]+'.'+nums[2]}
   function wifiStatus(){
